@@ -1,0 +1,36 @@
+
+.container {
+    width : 1280px;
+    background-color:crimson;
+    margin:120px 80px 80px 80px;
+    height:640px;
+}
+
+.footer {
+position :absolute;
+width: 1280px;
+height: 144px;
+left: 80px;
+top: 760px;
+background: #000;
+}
+
+.header {
+    /* header */
+    
+    
+        position: absolute;
+        width: 1440px;
+        height: 120px;
+        left: 0px;
+        top: 0px;
+    
+        background: rgba(60, 60, 60, 0.68);
+}
+
+xl - greater than 1440
+lg - 768 to 1440
+md - 480 to 768
+sm - upto 480
+
+
