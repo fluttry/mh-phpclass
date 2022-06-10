@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>madhu dashboard</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="/admin/dashboard.css">
+    
+</head>
+<body>
+    <!--Top navbar starts here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Top navbar ends here-->
+
+      <!--Dashboard Body starts-->
+    <div class="container-fluid">
+      <div class="row">
+          <!-- Sidebar menu-->
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark h-all">
+                    <div class="position-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/dashboard.html">
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/blank-dashboard.html">
+                                    Blank Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/routine.html">
+                                    Class Routine
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <!-- Main Content -->
+                    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <nav class="nav nav-pills flex-column">
+                          <a class="nav-link" href="#item-1">Item 1</a>
+                          <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                          </nav>
+                          <a class="nav-link" href="#item-2">Item 2</a>
+                          <a class="nav-link" href="#item-3">Item 3</a>
+                          <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                          </nav>
+                        </nav>
+                      </nav>
+                      
+                      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+                        <h4 id="item-1">Item 1</h4>
+                        <p>...</p>
+                        <h5 id="item-1-1">Item 1-1</h5>
+                        <p>...</p>
+                        <h5 id="item-1-2">Item 1-2</h5>
+                        <p>...</p>
+                        <h4 id="item-2">Item 2</h4>
+                        <p>...</p>
+                        <h4 id="item-3">Item 3</h4>
+                        <p>...</p>
+                        <h5 id="item-3-1">Item 3-1</h5>
+                        <p>...</p>
+                        <h5 id="item-3-2">Item 3-2</h5>
+                        <p>...</p>
+                      </div>
+          
+
+          </main>
+      </div>
+  </div>
+      <!--Dashboard Body Ends-->
+    <script type="javascript" src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
