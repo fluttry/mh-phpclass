@@ -10,7 +10,7 @@
     <?php
     $x= 10;
     $y = 15;
-     echo "sum of x and y is :" . $x + $yS;
+     echo "sum of x and y is :" . $x + $y;
       ?>
 </body>
 </html>
